@@ -72,9 +72,9 @@ with col1:
                 key=key,
             )
 
-    st.divider()
-    st.info(f"Persistent players: {len(st.session_state.players)} • Temporary this session: {len(st.session_state.temp_players)}")
-    st.divider()
+    # st.divider()
+    # st.info(f"Persistent players: {len(st.session_state.players)} • Temporary this session: {len(st.session_state.temp_players)}")
+    # st.divider()
 
     # Add player area
     st.subheader("Add Player")
